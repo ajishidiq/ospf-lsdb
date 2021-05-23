@@ -1,0 +1,8 @@
+Value ID (\d+)
+Value Hop (\S+)
+Value MTU (\d+)
+
+Start
+  ^  ${ID} ${Hop} MRU ${MTU} -> Record
+  ^\S ${ID} ${Hop} MRU ${MTU} -> Record
+  ^\S ${ID} ${Hop}  -> Record
