@@ -130,3 +130,6 @@ dmypy.json
 
 #configuration file
 .conf/
+
+#Testing Script
+.test-script/
